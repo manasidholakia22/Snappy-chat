@@ -1,14 +1,52 @@
-.button{
+/*.button{
   height: 50px;
   width: 200px;
   padding: 20px;
-}
+}*/
 
 html, body {
     height: 100%;
     box-sizing: border-box;
+    font-family:"roboto";
+    font-size: 14px;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
+}
+body{
+  background-image: url("bg.jpg");
+  resize:inherit;
+  background-size:cover;
+}
+.main{
+  width:500px;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 470px;
+}
+.logo{
+  font-size: 50px;
+  color: maroon;
+  margin-bottom: 15px;
+  margin-top: 0;
+
+}
+.tagline{
+  font-size: 20px;
+  color: maroon;
+}
+.button{
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover{
+  background: lightblue;
+  color: black;
 }
