@@ -23,9 +23,9 @@ body{
   width:500px;
   margin: auto;
   position: relative;
-  top: 50%;
+  top: 47%;
   transform: translateY(-50%);
-  margin-left: 470px;
+  margin-left: 465px;
 }
 .logo{
   font-size: 50px;
